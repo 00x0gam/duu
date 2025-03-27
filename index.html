@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /*reset*/
+
+      * {margin:0; box-sizing:border-box;}
+        ul, ol, li {list-style:none; margin:0; padding:0;}
+        a {text-decoration:none; color: inherit;}
+
+        /*듀-가나디의 발차기*/
+
+        #duu {width: 1000px; height: 800px; margin: 0 auto;}
+
+        #duu > h2 {font-size: 30px; color: white; text-align: center; line-height: 100px;
+            background-color: #000; background-clip: padding-box; margin-bottom: 10px;}
+        
+        #duu > p {font-size: 18px; color: gray; text-align:center; line-height: 45px;}
+        #duu > .link{font-size: 18px; color: gray; text-align:center; line-height: 50px; 
+                    border-bottom: 2px dotted gray;}
+
+        #duu > .box {
+              position: relative;
+              width: 200px; height: 250px; float: left;
+              padding: 10px; margin: 30px 25px; border: 2px solid #eee;
+              /* display: row; */
+              justify-content: center;
+              align-items: center;
+              text-align:center;
+              transition: filter 0.3s ease-in-out;
+              overflow: hidden;
+              }
+
+        #duu> .box:hover {box-shadow:4px 4px 4px #eee; padding:10px; }
+
+        #duu > .box > a > img{ width: 150px; height: 120px; align-items: center;}
+
+        #duu > .box > h4 > a {font-size:18px; color:#000;}
+        #duu > .box > p > a {font-size:13px; color:#000;}
+        #duu > .box >span > a {font-size:12px; color:tomato; text-align: center; font-weight:bold;}
+
+        #duu > .box .text {
+            position:absolute;
+            width: 100px; height: 100px;
+            top: 50%; left: 50%;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            font-size: 15px;
+            color:#fff;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.6); /* 반투명 배경 추가 */
+            padding: 10px 15px;
+            border-radius: 5px;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;}
+
+            #duu > .box:hover .text {opacity: 1;}
+
+
+    </style>
+</head>
+<body>
+
+    <div id="duu">
+        <h2>듀가나디 모음집</h2>
+        <p>!!!귀여운 듀가나디를 공짜로로 맛볼 수 있습니다!!!</p>
+        <p class="link">듀가나디를 누르면 작가님 이모티콘 샵으로 넘어갑니다</p>
+
+        <div class="box">
+            <a href="https://e.kakao.com/creator/8B018M"><img src="./img/듀가나디1.jpg" alt="듀가나디"></a>
+            <h4><a href="https://e.kakao.com/creator/8B018M">분노의 듀-발차기</a></h4>
+            <p><a href="https://e.kakao.com/creator/8B018M">많이 아파 보이겠지만<br>아주 살짝 따끔합니다</a></p>
+            <span><a href="https://e.kakao.com/creator/8B018M">!!무려 2500원!!</a></span>
+
+            <div class="text"><a href="https://e.kakao.com/creator/8B018M">이것이<br>당신의<br>듀가나디?!</a></div>
+        </div>
+
+        <div class="box">
+            <a href="https://e.kakao.com/creator/8B018M"><img src="./img/듀가나디2.jpg" alt="듀가나디"></a>
+            <h4><a href="https://e.kakao.com/creator/8B018M">분노의 듀-물기</a></h4>
+            <p><a href="https://e.kakao.com/creator/8B018M">당신은 이미 물려있다<br>항상 시야를 잘 확보합시다</a></p>
+            <span><a href="https://e.kakao.com/creator/8B018M">!!무려 2500원!!</a></span>
+
+            <div class="text"><a href="https://e.kakao.com/creator/8B018M">이것이<br>당신의<br>듀가나디?!</a></div>
+        </div>
+
+        <div class="box">
+            <a href="https://e.kakao.com/creator/8B018M"><img src="./img/듀가나디3.jpg" alt="듀가나디"></a>
+            <h4><a href="https://e.kakao.com/creator/8B018M">분노의 듀-울기</a></h4>
+            <p><a href="https://e.kakao.com/creator/8B018M">매우매우 슬픈 듀가나디<br>간식을 못 먹어서</a></p>
+            <span><a href="https://e.kakao.com/creator/8B018M">!!무려 2500원!!</a></span>
+
+            <div class="text"><a href="https://e.kakao.com/creator/8B018M">이것이<br>당신의<br>듀가나디?!</a></div>
+        </div>
+
+        <div class="box">
+            <a href="https://e.kakao.com/creator/8B018M"><img src="./img/듀가나디4.jpg" alt="듀가나디"></a>
+            <h4><a href="https://e.kakao.com/creator/8B018M">분노의 듀-버럭</a></h4>
+            <p><a href="https://e.kakao.com/creator/8B018M">극대노 듀가나디<br>사실은 배가 고파서</a></p>
+            <span><a href="https://e.kakao.com/creator/8B018M">!!무려 2500원!!</a></span>
+
+            <div class="text"><a href="https://e.kakao.com/creator/8B018M">이것이<br>당신의<br>듀가나디?!</a></div>
+        </div>
+
+        <div class="box">
+            <a href="https://e.kakao.com/creator/8B018M"><img src="./img/듀가나디5.jpg" alt="듀가나디"></a>
+            <h4><a href="https://e.kakao.com/creator/8B018M">차분한 듀-정색</a></h4>
+            <p><a href="https://e.kakao.com/creator/8B018M">많이 피곤한 듀가나디<br>빨리 집에 가고 싶다</a></p>
+            <span><a href="https://e.kakao.com/creator/8B018M">!!무려 2500원!!</a></span>
+
+            <div class="text"><a href="https://e.kakao.com/creator/8B018M">이것이<br>당신의<br>듀가나디?!</a></div>
+        </div>
+
+        <div class="box">
+            <a href="https://e.kakao.com/creator/8B018M"><img src="./img/듀가나디6.jpg" alt="듀가나디"></a>
+            <h4><a href="https://e.kakao.com/creator/8B018M">차분한 듀-인사</a></h4>
+            <p><a href="https://e.kakao.com/creator/8B018M">집에 가서 행복한<br>듀가나디의 행복한 인사</a></p>
+            <span><a href="https://e.kakao.com/creator/8B018M">!!무려 2500원!!</a></span>
+
+            <div class="text"><a href="https://e.kakao.com/creator/8B018M">이것이<br>당신의<br>듀가나디?!</a></div>
+        </div>
+
+        <div class="box">
+            <a href="https://e.kakao.com/creator/8B018M"><img src="./img/듀가나디7.jpg" alt="듀가나디"></a>
+            <h4><a href="https://e.kakao.com/creator/8B018M">차분한 듀-먹방</a></h4>
+            <p><a href="https://e.kakao.com/creator/8B018M">먹히고 있는 듀가나디<br>옆은 친구랍니다</a></p>
+            <span><a href="https://e.kakao.com/creator/8B018M">!!무려 2500원!!</a></span>
+
+            <div class="text"><a href="https://e.kakao.com/creator/8B018M">이것이<br>당신의<br>듀가나디?!</a></div>
+        </div>
+
+        <div class="box">
+            <a href="https://e.kakao.com/creator/8B018M"><img src="./img/듀가나디8.jpg" alt="듀가나디"></a>
+            <h4><a href="https://e.kakao.com/creator/8B018M">차분한 듀-기다림</a></h4>
+            <p><a href="https://e.kakao.com/creator/8B018M">오늘의 저녁은 뭘까<br>궁금한 듀가나디</a></p>
+            <span><a href="https://e.kakao.com/creator/8B018M">!!무려 2500원!!</a></span>
+
+            <div class="text"><a href="https://e.kakao.com/creator/8B018M">이것이<br>당신의<br>듀가나디?!</a></div>
+        </div>
+</div>
+</body>
+</html>
